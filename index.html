@@ -3,56 +3,75 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Vruti Modi</title>
-    <meta name="description" content="Your Description">
-    <meta name="keywords" content="Your, Key, Words">
-    <meta name="author" content="Your Name">
+    <title>Vruti Modi portfolio</title>
+    <meta name="author" content="Vruti Modi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Source+Serif+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="container">
-        <h1>Portfolio- nbhsbdsbhd Vruti Patel Modi</h1>
+       <header class="container">
+        <h1>Portfolio- Vruti Modi</h1>
 
-        <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
-            <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
-            <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
-            <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
-            <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
-            <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
-            <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
-            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-        </div>
+       <nav class="primary">
+        <a href="index.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a href="cover-letter.html">Cover Letter</a>
+        <a href="writing-examples.html">Writing Examples</a>
+        <a href="programming-examples.html">Programming Examples</a>
+        <a href="database-examples.html">Database Examples</a>
+        <a href="soft-skills.html">Soft Skill Examples</a>
+        <a href="website-examples.html">Website Examples</a>
+        <a href="capstone-project.html">Capstone Project</a>
+        </header> 
+    </nav>
+  
+      
+    
 
         <!-- Begin Home Section -->
-        <div id="Home" class="tabcontent">
-              <h2>Profile</h2>
-        </div>
-
-        <!-- Begin Skills Section -->
-        <div id="Skills" class="tabcontent">
-            <h2>Skills</h2>
-        </div>
-
-        <div id="Education" class="tabcontent">
-          <h2>Education</h2>
-        </div>
-
-        <div id="Accomplishments" class="tabcontent">
-            <h2>Accomplishments</h2>
-        </div>        
         
-        <!-- Begin Skills Section -->
-        <div id="Resume" class="tabcontent">
-            <h2>Resume</h2>
-        </div>
-        
-        <div id="CoverLetter" class="tabcontent">
-            <h2>Letter of Introduction</h2>
-        </div>
+        <section id="description">
+      <img itemprop="image" src="assets/images/self.jpg" alt="Headshot">
+        <p><span itemprop="description">As an upcoming graduate from the University of Arkansas at Little Rock, I am looking for an
+opportunity to use my degree in Web Design and Development. I am a highly motivated self-starter
+that enjoys the challenges of new technology and learning from others. I will strive to put my best
+foot forward and grow as an individual and a professional if given the opportunity. My experience
+thus far is inclusive of various customer service focused positions based on technology services.
+Through my studies I have hands-on experience with database concepts, data analytics, and web
+development. I have working knowledge of various web client applications such as Javascript, CSS,
+Html, Wireframes. </span></p>
+      </section>
 
+
+        
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
+          <span itemprop="name">University of Arkansas at Little Rock</span>
+          <br>Fall 2018-Spring 2020</br>
+          <dl>
+            <dt>Major:</dt>
+            <dd>Web Design and Development</dd>
+            <dt>Minor:</dt>
+            <dd>Information Technology<dd>
+            <dd>Digital Graphics</dd>
+            <dt>GPA</dt>
+            <dd>3.5</dd>
+          </dl>
+          
+      </article>
+    </section>
+    
+    <ul class="related-links">
+        <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/vruti-modi"><i class="fab fa-linkedin"></i>linkedin</a></li>
+
+        <li><a itemprop="url" rel="me" href="VModi.pdf"><i class="fas fa-file-pdf"></i></i> PDF Resume</a></li>
+      </ul>
+      
+      
         <div id="Contact" class="tabcontent">
             <h2>Contact Me</h2>
         </div>    

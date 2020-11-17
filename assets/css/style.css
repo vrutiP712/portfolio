@@ -1,21 +1,80 @@
 
-
 html {
     color: #2B271B;
     font-size: 1em;
     line-height: 1.4;
     box-sizing: border-box;
+} 
+h1 {
+   text-align: center;
+}
+
+nav {
+    width:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:10px 10px 0px 10px;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+border: 1px solid #2B271B;
+border-radius: 5px;   
+text-decoration: none;
+color:#2B271B;
+text-align: center;
+}
+
+nav a:hover{
+    background: #657363;
+    opacity: 0.8;
+}
+
+#about{
+  padding-left: 20px;
+}
+.related-links{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+}
+
+.related-links li{
+    list-style-type: none;
+}
+
+.related-links li a{
+    text-decoration: none;
+}
+
+.related-links a{
+    border: 1px solid;
+    padding: 5px 10px;
+    color:#2B271B;
+    border-radius: 5px;
+}
+
+.related-links a:hover{
+    background: #657363;
+    opacity: 0.8;
+}
+.fab, .far{
+    padding-right:5px;
 }
 /*  body */
-	
+/*--Fluid Images--*/
+img{
+    max-width: 100%;
+    height: auto;
+}	
 body {
 	font-family: 'Catamaran', sans-serif;
 	}
-img{
-    max-width: 100%;
-    height: auto ;
-}
- #container {
+ .container {
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -23,6 +82,20 @@ img{
 	margin-bottom: 50px;
 }
 
+h1{
+    text-align: center;
+    padding:5px 15px;
+    margin:0;
+    font-size:2.5em;
+    color: #000f4d;
+}
+h2{
+   text-align: center;
+    padding:5px 15px;
+    margin:0;
+    font-size:2em;
+    color: #206293;
+}
 p {
 	margin-bottom: 20px;
 	}
@@ -30,62 +103,91 @@ p {
 .listmargin  {
 	margin-bottom: 20px;
 }	
-
-.img-style-1 {
-	float: left;
-	margin-right: 10px;
-    margin-bottom: 10px;
-	padding: 5px;
-	border: 1px solid #CCC;
-}	
-	
-/* tutorial styles */
-
-/* tabs */
-
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+#capstone-project{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
+}
+#website-examples{
+    margin:0 auto;
+   border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
+}
+#experience h3{
+    border-left: 2px solid #8C4242;
+    padding-left: 5px;
+    margin-top:40px;
+}
+#cover-letter{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 16px;
+#programming-examples{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
+#soft-skill-examples{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
+#experience{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
 
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+#database-examples{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
 
-.tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+#writing-examples{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
 }
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+#about{
+    margin:0 auto;
+    border: 2px solid grey;
+   border-radius: 5px;
+   background: LightGray;
+    padding: 20px;
+    max-width: 920px;
+}
+#description{
+    margin:0 auto;
+    border: 2px solid grey;
+   padding: 20px;
+    max-width: 920px;
 }

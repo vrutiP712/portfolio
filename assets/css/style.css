@@ -4,11 +4,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     box-sizing: border-box;
-} 
-h1 {
-   text-align: center;
 }
-
 nav {
     width:auto;
     display:grid;
@@ -86,8 +82,8 @@ h1{
     text-align: center;
     padding:5px 15px;
     margin:0;
-    font-size:2.5em;
     color: #000f4d;
+    font-size: 35px;
 }
 h2{
    text-align: center;
@@ -188,7 +184,8 @@ p {
 #description{
     margin:0 auto;
     border: 2px solid grey;
-   padding: 20px;
+     border-radius: 5px;
+    padding: 20px;
     max-width: 920px;
 }
 
@@ -205,11 +202,6 @@ p {
     border-color: #bd920d;
 }
 
-h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 35px;
-}
 
 #calc_body {
     border: solid;
@@ -250,9 +242,13 @@ form * {
     margin:0 auto;
     border: 2px solid grey;
    border-radius: 5px;
-   background: LightGray;
-    padding: 20px;
+   background: grey;
     max-width: 920px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    color: white;
 }
 
 /* ---------------script form for programming----------------- */
